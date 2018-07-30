@@ -11,6 +11,11 @@
   <packaging>pom</packaging>
   <name>Java EE Projects</name>
   <description>Java EE Projects</description>
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>${java.version}</maven.compiler.source>
+    <maven.compiler.target>${java.version}</maven.compiler.target>
+  </properties>
   <!-- add GitHub rajendarreddyj maven-repo to repositories -->
   <repositories>
     <repository>
